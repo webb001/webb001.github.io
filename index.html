@@ -1,13 +1,30 @@
  <!DOCTYPE html>
 <html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+</head>
 <body>
 
-<h1>Hawaii</h1>
-<br><img src="means.png" alt="7 day boxcar mean">
-<br><img src="population14day.png" alt="14 day total cases per 10k population"> 
-<h1>Oahu</h1>
-<br><img src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
-<br><img src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
+<h1 style="text-align:center">Hawaii</h1>
+<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
+<br><img class="center-fit" src="population14day.png" alt="14 day total cases per 10k population"> 
+<h1 style="text-align:center">Oahu</h1>
+<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
+<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
 
 
 </body>
