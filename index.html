@@ -48,6 +48,7 @@
 	<div class="imgbox">
 		<h1 style="text-align:center">State of Hawaii</h1>
 		<p class="center-fit"><br>Note: on 11/15/2020 DoH skipped a report day and started reporting with an extra day delay. My report dates after 11/15 are one day earlier than Doh report dates.</p>
+		<p class="center-fit"><br>Note: on 5/19/2021 DoH started reporting probable cases as well as confirmed cases -- and broke all my scripts.</p>
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
 		<br><p style="text-align:center">7 Day Descriptive Stats</p>
 		<br><table border="1" class="dataframe mystyle">
@@ -65,26 +66,26 @@
   <tbody>
     <tr>
       <th>mean</th>
-      <td>86.7</td>
-      <td>65.1</td>
-      <td>4.3</td>
-      <td>10.7</td>
+      <td>86.1</td>
+      <td>65.9</td>
+      <td>3.7</td>
+      <td>10.0</td>
       <td>0.9</td>
       <td>5.7</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>22.4</td>
-      <td>19.9</td>
-      <td>2.6</td>
-      <td>6.2</td>
+      <td>23.9</td>
+      <td>19.2</td>
+      <td>2.3</td>
+      <td>4.7</td>
       <td>1.2</td>
       <td>4.4</td>
     </tr>
     <tr>
       <th>min</th>
       <td>58.0</td>
-      <td>45.0</td>
+      <td>50.0</td>
       <td>0.0</td>
       <td>2.0</td>
       <td>0.0</td>
@@ -95,7 +96,7 @@
       <td>126.0</td>
       <td>102.0</td>
       <td>7.0</td>
-      <td>20.0</td>
+      <td>16.0</td>
       <td>3.0</td>
       <td>14.0</td>
     </tr>
@@ -115,18 +116,9 @@
   </thead>
   <tbody>
     <tr>
-      <th>2021-05-12</th>
-      <td>80</td>
-      <td>52</td>
-      <td>7</td>
-      <td>20</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
       <th>2021-05-13</th>
-      <td>85</td>
-      <td>64</td>
+      <td>86</td>
+      <td>65</td>
       <td>3</td>
       <td>13</td>
       <td>2</td>
@@ -134,10 +126,10 @@
     </tr>
     <tr>
       <th>2021-05-14</th>
-      <td>105</td>
+      <td>106</td>
       <td>80</td>
       <td>3</td>
-      <td>15</td>
+      <td>16</td>
       <td>1</td>
       <td>6</td>
     </tr>
@@ -170,12 +162,21 @@
     </tr>
     <tr>
       <th>2021-05-18</th>
-      <td>71</td>
-      <td>45</td>
+      <td>84</td>
+      <td>51</td>
       <td>7</td>
-      <td>5</td>
+      <td>12</td>
       <td>0</td>
       <td>14</td>
+    </tr>
+    <tr>
+      <th>2021-05-19</th>
+      <td>61</td>
+      <td>50</td>
+      <td>3</td>
+      <td>7</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
@@ -194,7 +195,7 @@
 		
 		<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
-		<p class="center-fit">The average rate over the last 2 weeks was about 0.998, std = 0.024.  Halving days about 380. Rt (6 day rate) around 0.989.</p>
+		<p class="center-fit">The average rate over the last 2 weeks was about 0.993, std = 0.028.  Halving days about 102. Rt (6 day rate) around 0.960.</p>
 		<br><img class="center-fit" src="rfSignal.png" alt="Rising or Falling as percent of standard deviation and phase corrected">
 	</div>
 	
