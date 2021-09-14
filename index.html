@@ -47,11 +47,11 @@
 <body>
 	<div class="imgbox">
 		<h1 style="text-align:center">State of Hawaii</h1>
-		<p class="center-fit"><br>Note: on 11/15/2020 DoH skipped a report day and started reporting with an extra day delay. My report dates after 11/15 are one day earlier than Doh report dates.</p>
-		<p class="center-fit"><br>Note: on 5/19/2021 DoH started reporting probable cases as well as confirmed cases -- and broke all my scripts.</p>
-		<p class="center-fit"><br>Note: on 7/12/2021 DoH stopped updating its csv. For the report date 7/11 I am taking data from Star Advertiser which inludes probable cases.</p>
-		<p class="center-fit"><br>Note: on 7/18/2021 DoH appears to be updating a new CSV. <a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">here</a></p>
-		<p class="center-fit"><br>Note: on 9/13/2021 DoH added probable into the counts in their CSV. I'm including them since it'd be hard to automate removing them..</p>
+		<p class="center-fit"><br>On 11/15/2020 DoH skipped a report day and started reporting with an extra day delay. My report dates after 11/15 are one day earlier than Doh report dates.</p>
+		<p class="center-fit"><br>On 5/19/2021 DoH started reporting probable cases as well as confirmed cases -- and broke all my scripts.</p>
+		<p class="center-fit"><br>On 7/12/2021 DoH stopped updating its csv. For the report date 7/11 I am taking data from Star Advertiser which inludes probable cases.</p>
+		<p class="center-fit"><br>On 7/18/2021 DoH appears to be updating a new CSV. <a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">here</a></p>
+		<p class="center-fit"><br>On 9/13/2021 DoH added probable into the counts in their CSV. I'm including them since it'd be hard to automate removing them..</p>
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
 		<br><p style="text-align:center">7 Day Descriptive Stats</p>
 		<br><table border="1" class="dataframe mystyle">
@@ -68,33 +68,33 @@
   <tbody>
     <tr>
       <th>mean</th>
-      <td>566.7</td>
-      <td>386.0</td>
-      <td>88.4</td>
-      <td>56.0</td>
-      <td>36.3</td>
+      <td>557.0</td>
+      <td>383.7</td>
+      <td>87.3</td>
+      <td>54.3</td>
+      <td>31.7</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>167.7</td>
-      <td>128.3</td>
-      <td>30.7</td>
-      <td>18.1</td>
-      <td>12.3</td>
+      <td>182.3</td>
+      <td>133.4</td>
+      <td>33.6</td>
+      <td>20.1</td>
+      <td>14.3</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>389.0</td>
-      <td>216.0</td>
-      <td>50.0</td>
-      <td>34.0</td>
-      <td>19.0</td>
+      <td>384.0</td>
+      <td>215.0</td>
+      <td>39.0</td>
+      <td>30.0</td>
+      <td>13.0</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>801.0</td>
-      <td>581.0</td>
-      <td>134.0</td>
+      <td>800.0</td>
+      <td>579.0</td>
+      <td>135.0</td>
       <td>83.0</td>
       <td>56.0</td>
     </tr>
@@ -113,25 +113,17 @@
   </thead>
   <tbody>
     <tr>
-      <th>2021-09-05</th>
-      <td>723</td>
-      <td>462</td>
-      <td>119</td>
-      <td>78</td>
-      <td>64</td>
-    </tr>
-    <tr>
       <th>2021-09-06</th>
-      <td>496</td>
+      <td>497</td>
       <td>359</td>
-      <td>50</td>
+      <td>51</td>
       <td>42</td>
       <td>45</td>
     </tr>
     <tr>
       <th>2021-09-07</th>
-      <td>389</td>
-      <td>216</td>
+      <td>388</td>
+      <td>215</td>
       <td>92</td>
       <td>62</td>
       <td>19</td>
@@ -147,34 +139,42 @@
     <tr>
       <th>2021-09-09</th>
       <td>733</td>
-      <td>482</td>
-      <td>134</td>
+      <td>481</td>
+      <td>135</td>
       <td>75</td>
       <td>42</td>
     </tr>
     <tr>
       <th>2021-09-10</th>
-      <td>801</td>
-      <td>581</td>
-      <td>105</td>
+      <td>800</td>
+      <td>579</td>
+      <td>106</td>
       <td>83</td>
       <td>32</td>
     </tr>
     <tr>
       <th>2021-09-11</th>
-      <td>682</td>
-      <td>466</td>
-      <td>108</td>
+      <td>709</td>
+      <td>492</td>
+      <td>109</td>
       <td>52</td>
       <td>56</td>
     </tr>
     <tr>
       <th>2021-09-12</th>
-      <td>451</td>
-      <td>312</td>
+      <td>470</td>
+      <td>331</td>
       <td>78</td>
       <td>34</td>
       <td>27</td>
+    </tr>
+    <tr>
+      <th>2021-09-13</th>
+      <td>384</td>
+      <td>302</td>
+      <td>39</td>
+      <td>30</td>
+      <td>13</td>
     </tr>
   </tbody>
 </table>
@@ -193,7 +193,7 @@
 		
 		<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
-		<p class="center-fit">The average rate over the last 2 weeks was about 0.987, std = 0.033.  Halving days about 53. Rt (6 day rate) around 0.924.</p>
+		<p class="center-fit">The average rate over the last 2 weeks was about 0.984, std = 0.030.  Halving days about 43. Rt (6 day rate) around 0.907.</p>
 		<br><img class="center-fit" src="rfSignal.png" alt="Rising or Falling as percent of standard deviation and phase corrected">
 	</div>
 	
