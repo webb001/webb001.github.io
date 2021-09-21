@@ -41,19 +41,23 @@
 		background: silver;
 		/* cursor: pointer; */
 	}
+	.notes {
+		max-width: 60%;
+		max-height: 100vh;
+		margin-left: 20%;
+		margin-right: 20%;
+		text-align: left;
+	}
 </style>
 </head>   
 
 <body>
 	<div class="imgbox">
-		<h1 style="text-align:center">State of Hawaii</h1>
-		<p class="center-fit"><br>On 11/15/2020 DoH skipped a report day and started reporting with an extra day delay. My report dates after 11/15 are one day earlier than Doh report dates.</p>
-		<p class="center-fit"><br>On 5/19/2021 DoH started reporting probable cases as well as confirmed cases -- and broke all my scripts.</p>
-		<p class="center-fit"><br>On 7/12/2021 DoH stopped updating its csv. For the report date 7/11 I am taking data from Star Advertiser which inludes probable cases.</p>
-		<p class="center-fit"><br>On 7/18/2021 DoH appears to be updating a new CSV. <a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">here</a></p>
-		<p class="center-fit"><br>On 9/13/2021 DoH added probable into the counts in their CSV. I'm including them since it'd be hard to automate removing them.</p>
+		<h1 style="text-align:center">Hawaii COVID-19 Trends</h1>
+		
+		
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
-		<br><p style="text-align:center">7 Day Descriptive Stats</p>
+		<br><h3 style="text-align:center">7 Day Descriptive Stats</h3>
 		<br><table border="1" class="dataframe mystyle">
   <thead>
     <tr style="text-align: right;">
@@ -100,7 +104,7 @@
     </tr>
   </tbody>
 </table>
-		<br><p style="text-align:center">Cases</p>
+		<br><h3 style="text-align:center">Cases</h3>
 		<br><table border="1" class="dataframe mystyle">
   <thead>
     <tr style="text-align: right;">
@@ -196,7 +200,20 @@
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
 		<p class="center-fit">The average rate over the last 2 weeks was about 0.970, std = 0.026.  Halving days about 23. Rt (6 day rate) around 0.835.</p>
 		<br><img class="center-fit" src="rfSignal.png" alt="Rising or Falling as percent of standard deviation and phase corrected">
+		
+		<br><h1 style="text-align:center" >Notes</h1>
+		<p class="notes"><br>I am attempting to use the most official and suitable data for showing changing trends. At the moment I feel that the data from the time series
+		that DOH publishes as their "Epi Curve" is the best. Those data are a little different form the headline data DOH publishes. The headline numbers are the day over day change in
+		total cases with probable cases included. Because of the way corrections are handled that change in total cases often doesn't represent the number of cases that were recorded on
+		a single day. The Epi Curve data looks to be more closely linked to the dates that results are reported on.  </p>
+		<p class="notes"><br>On 11/15/2020 DoH skipped a report day and started reporting with an extra day delay. My report dates after 11/15 are one day earlier than Doh report dates.</p>
+		<p class="notes"><br>On 5/19/2021 DoH started reporting probable cases as well as confirmed cases -- and broke all my scripts.</p>
+		<p class="notes"><br>On 7/12/2021 DoH stopped updating its csv. For the report date 7/11 I am taking data from Star Advertiser which inludes probable cases.</p>
+		<p class="notes"><br>On 7/18/2021 DoH appears to be updating a new CSV. <a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">here</a></p>
+		<p class="notes"><br>On 9/13/2021 DoH added probable into the counts in their CSV. I'm including them since it'd be hard to automate removing them.</p>
 	</div>
+	
+	
 	
 </body>
 </html> 
