@@ -72,18 +72,18 @@
   <tbody>
     <tr>
       <th>mean</th>
-      <td>122.9</td>
-      <td>66.4</td>
-      <td>29.7</td>
-      <td>12.6</td>
-      <td>14.1</td>
+      <td>118.9</td>
+      <td>63.4</td>
+      <td>27.1</td>
+      <td>12.4</td>
+      <td>15.9</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>40.3</td>
-      <td>26.8</td>
-      <td>11.9</td>
-      <td>8.0</td>
+      <td>40.6</td>
+      <td>25.8</td>
+      <td>10.8</td>
+      <td>8.5</td>
       <td>8.6</td>
     </tr>
     <tr>
@@ -96,10 +96,10 @@
     </tr>
     <tr>
       <th>max</th>
-      <td>171.0</td>
-      <td>102.0</td>
+      <td>184.0</td>
+      <td>110.0</td>
       <td>46.0</td>
-      <td>23.0</td>
+      <td>25.0</td>
       <td>32.0</td>
     </tr>
   </tbody>
@@ -118,27 +118,19 @@
   </thead>
   <tbody>
     <tr>
-      <th>2021-10-21</th>
-      <td>124</td>
-      <td>64</td>
-      <td>39</td>
-      <td>14</td>
-      <td>7</td>
-    </tr>
-    <tr>
       <th>2021-10-22</th>
       <td>171</td>
       <td>97</td>
-      <td>46</td>
-      <td>19</td>
+      <td>47</td>
+      <td>18</td>
       <td>9</td>
     </tr>
     <tr>
       <th>2021-10-23</th>
-      <td>123</td>
+      <td>120</td>
       <td>75</td>
-      <td>30</td>
-      <td>6</td>
+      <td>28</td>
+      <td>5</td>
       <td>12</td>
     </tr>
     <tr>
@@ -159,34 +151,42 @@
     </tr>
     <tr>
       <th>2021-10-26</th>
-      <td>164</td>
-      <td>102</td>
-      <td>20</td>
+      <td>184</td>
+      <td>110</td>
+      <td>32</td>
       <td>10</td>
       <td>32</td>
     </tr>
     <tr>
       <th>2021-10-27</th>
-      <td>124</td>
-      <td>52</td>
-      <td>44</td>
-      <td>19</td>
+      <td>130</td>
+      <td>54</td>
+      <td>46</td>
+      <td>21</td>
       <td>9</td>
     </tr>
     <tr>
       <th>2021-10-28</th>
-      <td>133</td>
-      <td>65</td>
+      <td>143</td>
+      <td>73</td>
       <td>27</td>
-      <td>23</td>
+      <td>25</td>
       <td>18</td>
+    </tr>
+    <tr>
+      <th>2021-10-29</th>
+      <td>110</td>
+      <td>58</td>
+      <td>16</td>
+      <td>15</td>
+      <td>21</td>
     </tr>
   </tbody>
 </table>
 		<br><p class="notes"><br>Here is the data I'm using: <a href="daily.csv">daily.csv</a>. It follows the DOH <a href="https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/">Epi curve</a> (<a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">CSVDownload.csv</a>) rather than the daily change in total cases. I'm excluding out of state cases. The dates sit between the reported date and the date in the DOH CSV. See the notes section below for my rationale.</p>
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
 		<br><img class="center-fit" src="stateProj.png" alt="statewide trend projection">
-		<p class="notes">The average rate over the last 2 weeks was about 0.998, std 0.019. Halving days about 386. Rt (6 day rate) about  0.989.</p>
+		<p class="notes">The average rate over the last 2 weeks was about 1.000, std 0.023. Halving days about 1646. Rt (6 day rate) about  0.997.</p>
 		<br><img class="center-fit" src="population14day.png" alt="14 day total cases per 10k population"> 
 		<br><img class="center-fit" src="population7Day.png" alt="7 data total caases per 10K population">
 		<h1 style="text-align:center">Oahu</h1>
@@ -198,7 +198,7 @@
 		
 		<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
-		<p class="center-fit">The average rate over the last 2 weeks was about 0.969, std = 0.028.  Halving days about 22. Rt (6 day rate) around 0.830.</p>
+		<p class="center-fit">The average rate over the last 2 weeks was about 0.976, std = 0.027.  Halving days about 28. Rt (6 day rate) around 0.862.</p>
 		<br><img class="center-fit" src="rate.png" alt="Trend in rate and cases">
 		
 		<br><h1 style="text-align:center" >Notes</h1>
