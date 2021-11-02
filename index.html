@@ -72,27 +72,27 @@
   <tbody>
     <tr>
       <th>mean</th>
-      <td>115.0</td>
-      <td>58.9</td>
+      <td>112.4</td>
+      <td>56.6</td>
       <td>25.0</td>
-      <td>14.7</td>
-      <td>16.4</td>
+      <td>14.9</td>
+      <td>16.0</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>44.6</td>
-      <td>26.8</td>
+      <td>49.5</td>
+      <td>30.3</td>
       <td>13.4</td>
-      <td>8.6</td>
-      <td>8.1</td>
+      <td>8.3</td>
+      <td>8.7</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>56.0</td>
-      <td>30.0</td>
+      <td>35.0</td>
+      <td>13.0</td>
       <td>10.0</td>
-      <td>1.0</td>
-      <td>9.0</td>
+      <td>2.0</td>
+      <td>7.0</td>
     </tr>
     <tr>
       <th>max</th>
@@ -118,19 +118,11 @@
   </thead>
   <tbody>
     <tr>
-      <th>2021-10-24</th>
-      <td>89</td>
-      <td>44</td>
-      <td>28</td>
-      <td>10</td>
-      <td>7</td>
-    </tr>
-    <tr>
       <th>2021-10-25</th>
-      <td>56</td>
+      <td>57</td>
       <td>30</td>
       <td>13</td>
-      <td>1</td>
+      <td>2</td>
       <td>12</td>
     </tr>
     <tr>
@@ -167,26 +159,34 @@
     </tr>
     <tr>
       <th>2021-10-30</th>
-      <td>114</td>
+      <td>116</td>
       <td>52</td>
       <td>29</td>
       <td>20</td>
-      <td>13</td>
+      <td>15</td>
     </tr>
     <tr>
       <th>2021-10-31</th>
-      <td>63</td>
-      <td>34</td>
+      <td>64</td>
+      <td>35</td>
       <td>10</td>
       <td>9</td>
       <td>10</td>
+    </tr>
+    <tr>
+      <th>2021-11-01</th>
+      <td>35</td>
+      <td>13</td>
+      <td>13</td>
+      <td>2</td>
+      <td>7</td>
     </tr>
   </tbody>
 </table>
 		<br><p class="notes"><br>Here is the data I'm using: <a href="daily.csv">daily.csv</a>. It follows the DOH <a href="https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/">Epi curve</a> (<a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">CSVDownload.csv</a>) rather than the daily change in total cases. I'm excluding out of state cases. The dates sit between the reported date and the date in the DOH CSV. See the notes section below for my rationale.</p>
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
 		<br><img class="center-fit" src="stateProj.png" alt="statewide trend projection">
-		<p class="notes">The average rate over the last 2 weeks was about 0.994, std 0.020. Halving days about 107. Rt (6 day rate) about  0.962.</p>
+		<p class="notes">The average rate over the last 2 weeks was about 0.986, std 0.021. Halving days about 48. Rt (6 day rate) about  0.917.</p>
 		<br><img class="center-fit" src="population14day.png" alt="14 day total cases per 10k population"> 
 		<br><img class="center-fit" src="population7Day.png" alt="7 data total caases per 10K population">
 		<h1 style="text-align:center">Oahu</h1>
@@ -198,7 +198,7 @@
 		
 		<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
-		<p class="center-fit">The average rate over the last 2 weeks was about 0.979, std = 0.025.  Halving days about 32. Rt (6 day rate) around 0.879.</p>
+		<p class="center-fit">The average rate over the last 2 weeks was about 0.978, std = 0.025.  Halving days about 31. Rt (6 day rate) around 0.876.</p>
 		<br><img class="center-fit" src="rate.png" alt="Trend in rate and cases">
 		
 		<br><h1 style="text-align:center" >Notes</h1>
