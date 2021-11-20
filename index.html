@@ -72,34 +72,34 @@
   <tbody>
     <tr>
       <th>mean</th>
-      <td>108.7</td>
-      <td>62.7</td>
-      <td>19.1</td>
-      <td>13.6</td>
-      <td>13.3</td>
+      <td>114.9</td>
+      <td>64.7</td>
+      <td>22.9</td>
+      <td>13.1</td>
+      <td>14.1</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>37.7</td>
-      <td>27.4</td>
-      <td>7.2</td>
-      <td>7.5</td>
-      <td>6.8</td>
+      <td>39.5</td>
+      <td>28.4</td>
+      <td>8.7</td>
+      <td>7.3</td>
+      <td>7.1</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>47.0</td>
+      <td>48.0</td>
       <td>33.0</td>
-      <td>6.0</td>
+      <td>7.0</td>
       <td>4.0</td>
       <td>4.0</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>156.0</td>
+      <td>158.0</td>
       <td>97.0</td>
-      <td>28.0</td>
-      <td>22.0</td>
+      <td>35.0</td>
+      <td>23.0</td>
       <td>22.0</td>
     </tr>
   </tbody>
@@ -118,14 +118,6 @@
   </thead>
   <tbody>
     <tr>
-      <th>2021-11-11</th>
-      <td>110</td>
-      <td>52</td>
-      <td>23</td>
-      <td>14</td>
-      <td>21</td>
-    </tr>
-    <tr>
       <th>2021-11-12</th>
       <td>96</td>
       <td>48</td>
@@ -143,17 +135,17 @@
     </tr>
     <tr>
       <th>2021-11-14</th>
-      <td>88</td>
+      <td>89</td>
       <td>33</td>
       <td>23</td>
-      <td>13</td>
+      <td>14</td>
       <td>19</td>
     </tr>
     <tr>
       <th>2021-11-15</th>
-      <td>47</td>
+      <td>48</td>
       <td>33</td>
-      <td>6</td>
+      <td>7</td>
       <td>4</td>
       <td>4</td>
     </tr>
@@ -168,25 +160,33 @@
     <tr>
       <th>2021-11-17</th>
       <td>156</td>
-      <td>90</td>
-      <td>24</td>
+      <td>88</td>
+      <td>26</td>
       <td>20</td>
       <td>22</td>
     </tr>
     <tr>
       <th>2021-11-18</th>
-      <td>143</td>
-      <td>85</td>
-      <td>19</td>
+      <td>158</td>
+      <td>96</td>
       <td>22</td>
+      <td>23</td>
       <td>17</td>
+    </tr>
+    <tr>
+      <th>2021-11-19</th>
+      <td>122</td>
+      <td>53</td>
+      <td>35</td>
+      <td>15</td>
+      <td>19</td>
     </tr>
   </tbody>
 </table>
 		<br><p class="notes"><br>Here is the data I'm using: <a href="daily.csv">daily.csv</a>. It follows the DOH <a href="https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/">Epi curve</a> (<a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">CSVDownload.csv</a>) rather than the daily change in total cases. I'm excluding out of state cases. The dates sit between the reported date and the date in the DOH CSV. See the notes section below for my rationale.</p>
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
 		<br><img class="center-fit" src="stateProj.png" alt="statewide trend projection">
-		<p class="notes">The average rate over the last 2 weeks was about 1.006, std 0.021. Doubling days about 108. Rt (6 day rate) about  1.039.</p>
+		<p class="notes">The average rate over the last 2 weeks was about 1.005, std 0.024. Doubling days about 127. Rt (6 day rate) about  1.033.</p>
 		<br><img class="center-fit" src="population14day.png" alt="14 day total cases per 10k population"> 
 		<br><img class="center-fit" src="population7Day.png" alt="7 data total caases per 10K population">
 		<h1 style="text-align:center">Oahu</h1>
@@ -198,7 +198,7 @@
 		
 		<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
-		<p class="center-fit">The average rate over the last 2 weeks was about 0.994, std = 0.031.  Halving days about 112. Rt (6 day rate) around 0.963.</p>
+		<p class="center-fit">The average rate over the last 2 weeks was about 0.999, std = 0.029.  Halving days about 818. Rt (6 day rate) around 0.995.</p>
 		<br><img class="center-fit" src="rate.png" alt="Trend in rate and cases">
 		
 		<br><h1 style="text-align:center" >Notes</h1>
