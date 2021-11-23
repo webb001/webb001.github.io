@@ -72,33 +72,33 @@
   <tbody>
     <tr>
       <th>mean</th>
-      <td>113.1</td>
-      <td>65.3</td>
-      <td>18.6</td>
+      <td>112.1</td>
+      <td>62.9</td>
+      <td>19.3</td>
       <td>15.4</td>
-      <td>13.9</td>
+      <td>14.6</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>42.7</td>
-      <td>28.7</td>
-      <td>10.1</td>
+      <td>44.5</td>
+      <td>31.4</td>
+      <td>10.0</td>
       <td>7.1</td>
-      <td>6.0</td>
+      <td>4.9</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>58.0</td>
-      <td>32.0</td>
+      <td>50.0</td>
+      <td>24.0</td>
       <td>7.0</td>
       <td>5.0</td>
-      <td>4.0</td>
+      <td>9.0</td>
     </tr>
     <tr>
       <th>max</th>
       <td>163.0</td>
       <td>98.0</td>
-      <td>35.0</td>
+      <td>36.0</td>
       <td>25.0</td>
       <td>22.0</td>
     </tr>
@@ -118,14 +118,6 @@
   </thead>
   <tbody>
     <tr>
-      <th>2021-11-14</th>
-      <td>94</td>
-      <td>38</td>
-      <td>23</td>
-      <td>14</td>
-      <td>19</td>
-    </tr>
-    <tr>
       <th>2021-11-15</th>
       <td>58</td>
       <td>40</td>
@@ -135,16 +127,16 @@
     </tr>
     <tr>
       <th>2021-11-16</th>
-      <td>135</td>
+      <td>136</td>
       <td>97</td>
-      <td>18</td>
+      <td>19</td>
       <td>7</td>
       <td>13</td>
     </tr>
     <tr>
       <th>2021-11-17</th>
-      <td>156</td>
-      <td>89</td>
+      <td>155</td>
+      <td>88</td>
       <td>26</td>
       <td>19</td>
       <td>22</td>
@@ -159,9 +151,9 @@
     </tr>
     <tr>
       <th>2021-11-19</th>
-      <td>128</td>
+      <td>129</td>
       <td>58</td>
-      <td>35</td>
+      <td>36</td>
       <td>16</td>
       <td>19</td>
     </tr>
@@ -181,12 +173,20 @@
       <td>17</td>
       <td>12</td>
     </tr>
+    <tr>
+      <th>2021-11-22</th>
+      <td>50</td>
+      <td>24</td>
+      <td>12</td>
+      <td>5</td>
+      <td>9</td>
+    </tr>
   </tbody>
 </table>
 		<br><p class="notes"><br>Here is the data I'm using: <a href="daily.csv">daily.csv</a>. It follows the DOH <a href="https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/">Epi curve</a> (<a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">CSVDownload.csv</a>) rather than the daily change in total cases. I'm excluding out of state cases. The dates sit between the reported date and the date in the DOH CSV. See the notes section below for my rationale.</p>
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
 		<br><img class="center-fit" src="stateProj.png" alt="statewide trend projection">
-		<p class="notes">The average rate over the last 2 weeks was about 0.997, std 0.030. Halving days about 228. Rt (6 day rate) about  0.982.</p>
+		<p class="notes">The average rate over the last 2 weeks was about 0.991, std 0.030. Halving days about 81. Rt (6 day rate) about  0.950.</p>
 		<br><img class="center-fit" src="population14day.png" alt="14 day total cases per 10k population"> 
 		<br><img class="center-fit" src="population7Day.png" alt="7 data total caases per 10K population">
 		<h1 style="text-align:center">Oahu</h1>
@@ -198,7 +198,7 @@
 		
 		<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
-		<p class="center-fit">The average rate over the last 2 weeks was about 0.997, std = 0.030.  Halving days about 272. Rt (6 day rate) around 0.985.</p>
+		<p class="center-fit">The average rate over the last 2 weeks was about 0.996, std = 0.030.  Halving days about 157. Rt (6 day rate) around 0.974.</p>
 		<br><img class="center-fit" src="rate.png" alt="Trend in rate and cases">
 		
 		<br><h1 style="text-align:center" >Notes</h1>
