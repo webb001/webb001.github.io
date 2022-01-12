@@ -72,33 +72,33 @@
   <tbody>
     <tr>
       <th>mean</th>
-      <td>3648.4</td>
-      <td>2621.9</td>
-      <td>318.6</td>
-      <td>524.0</td>
-      <td>184.0</td>
+      <td>3707.0</td>
+      <td>2661.9</td>
+      <td>324.4</td>
+      <td>529.7</td>
+      <td>191.0</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>743.9</td>
-      <td>519.4</td>
-      <td>130.7</td>
-      <td>137.0</td>
-      <td>51.2</td>
+      <td>780.0</td>
+      <td>555.8</td>
+      <td>133.7</td>
+      <td>127.7</td>
+      <td>42.3</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>2667.0</td>
-      <td>1830.0</td>
+      <td>2669.0</td>
+      <td>1833.0</td>
       <td>130.0</td>
-      <td>320.0</td>
-      <td>109.0</td>
+      <td>360.0</td>
+      <td>123.0</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>4639.0</td>
-      <td>3185.0</td>
-      <td>512.0</td>
+      <td>4625.0</td>
+      <td>3296.0</td>
+      <td>511.0</td>
       <td>724.0</td>
       <td>243.0</td>
     </tr>
@@ -118,75 +118,75 @@
   </thead>
   <tbody>
     <tr>
-      <th>2022-01-03</th>
-      <td>1485</td>
-      <td>1234</td>
-      <td>104</td>
-      <td>104</td>
-      <td>43</td>
-    </tr>
-    <tr>
       <th>2022-01-04</th>
-      <td>3029</td>
-      <td>2350</td>
-      <td>250</td>
+      <td>3019</td>
+      <td>2341</td>
+      <td>249</td>
       <td>320</td>
       <td>109</td>
     </tr>
     <tr>
       <th>2022-01-05</th>
-      <td>4639</td>
-      <td>3185</td>
-      <td>512</td>
+      <td>4625</td>
+      <td>3172</td>
+      <td>511</td>
       <td>724</td>
       <td>218</td>
     </tr>
     <tr>
       <th>2022-01-06</th>
-      <td>3553</td>
-      <td>2630</td>
-      <td>252</td>
+      <td>3545</td>
+      <td>2624</td>
+      <td>250</td>
       <td>428</td>
       <td>243</td>
     </tr>
     <tr>
       <th>2022-01-07</th>
-      <td>4215</td>
-      <td>3134</td>
+      <td>4208</td>
+      <td>3128</td>
       <td>431</td>
-      <td>459</td>
+      <td>458</td>
       <td>191</td>
     </tr>
     <tr>
       <th>2022-01-08</th>
-      <td>4289</td>
-      <td>3023</td>
-      <td>389</td>
+      <td>4587</td>
+      <td>3296</td>
+      <td>412</td>
       <td>652</td>
-      <td>225</td>
+      <td>227</td>
     </tr>
     <tr>
       <th>2022-01-09</th>
-      <td>3147</td>
-      <td>2201</td>
-      <td>266</td>
-      <td>557</td>
+      <td>3351</td>
+      <td>2357</td>
+      <td>312</td>
+      <td>559</td>
       <td>123</td>
     </tr>
     <tr>
       <th>2022-01-10</th>
-      <td>2667</td>
-      <td>1830</td>
+      <td>2669</td>
+      <td>1833</td>
       <td>130</td>
-      <td>528</td>
+      <td>527</td>
       <td>179</td>
+    </tr>
+    <tr>
+      <th>2022-01-11</th>
+      <td>2964</td>
+      <td>2223</td>
+      <td>225</td>
+      <td>360</td>
+      <td>156</td>
     </tr>
   </tbody>
 </table>
 		<br><p class="notes"><br>Here is the data I'm using: <a href="daily.csv">daily.csv</a>. It follows the DOH <a href="https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/">Epi curve</a> (<a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">CSVDownload.csv</a>) rather than the daily change in total cases. I'm excluding out of state cases. The dates sit between the reported date and the date in the DOH CSV. See the notes section below for my rationale.</p>
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
 		<br><img class="center-fit" src="stateProj.png" alt="statewide trend projection">
-		<p class="notes">The average rate over the last 2 weeks was about 1.045, std 0.020. Doubling days about 16. Rt (6 day rate) about  1.303.</p>
+		<p class="notes">The average rate over the last 2 weeks was about 1.042, std 0.024. Doubling days about 17. Rt (6 day rate) about  1.278.</p>
 		<br><img class="center-fit" src="population14day.png" alt="14 day total cases per 10k population"> 
 		<br><img class="center-fit" src="population7Day.png" alt="7 data total caases per 10K population">
 		<h1 style="text-align:center">Oahu</h1>
@@ -198,7 +198,7 @@
 		
 		<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
-		<p class="center-fit">The average rate over the last 2 weeks was about 1.070, std = 0.040.  Doubling days about 10. Rt (6 day rate) around 1.501.</p>
+		<p class="center-fit">The average rate over the last 2 weeks was about 1.065, std = 0.040.  Doubling days about 11. Rt (6 day rate) around 1.460.</p>
 		<br><img class="center-fit" src="rate.png" alt="Trend in rate and cases">
 		
 		<br><h1 style="text-align:center" >Notes</h1>
