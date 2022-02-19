@@ -72,33 +72,33 @@
   <tbody>
     <tr>
       <th>mean</th>
-      <td>436.3</td>
-      <td>257.6</td>
-      <td>69.0</td>
-      <td>60.9</td>
-      <td>48.9</td>
+      <td>405.0</td>
+      <td>239.6</td>
+      <td>65.1</td>
+      <td>57.9</td>
+      <td>42.4</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>137.0</td>
-      <td>70.0</td>
-      <td>34.1</td>
-      <td>19.6</td>
-      <td>35.1</td>
+      <td>132.7</td>
+      <td>64.4</td>
+      <td>36.8</td>
+      <td>19.3</td>
+      <td>34.9</td>
     </tr>
     <tr>
       <th>min</th>
       <td>216.0</td>
       <td>161.0</td>
-      <td>5.0</td>
-      <td>34.0</td>
+      <td>4.0</td>
+      <td>35.0</td>
       <td>5.0</td>
     </tr>
     <tr>
       <th>max</th>
       <td>605.0</td>
       <td>362.0</td>
-      <td>107.0</td>
+      <td>119.0</td>
       <td>89.0</td>
       <td>106.0</td>
     </tr>
@@ -118,19 +118,11 @@
   </thead>
   <tbody>
     <tr>
-      <th>2022-02-10</th>
-      <td>602</td>
-      <td>365</td>
-      <td>109</td>
-      <td>74</td>
-      <td>54</td>
-    </tr>
-    <tr>
       <th>2022-02-11</th>
-      <td>563</td>
+      <td>565</td>
       <td>336</td>
       <td>87</td>
-      <td>71</td>
+      <td>73</td>
       <td>69</td>
     </tr>
     <tr>
@@ -143,26 +135,26 @@
     </tr>
     <tr>
       <th>2022-02-13</th>
-      <td>489</td>
-      <td>240</td>
+      <td>490</td>
+      <td>241</td>
       <td>84</td>
       <td>59</td>
       <td>106</td>
     </tr>
     <tr>
       <th>2022-02-14</th>
-      <td>309</td>
+      <td>311</td>
       <td>212</td>
       <td>48</td>
-      <td>44</td>
+      <td>46</td>
       <td>5</td>
     </tr>
     <tr>
       <th>2022-02-15</th>
       <td>216</td>
       <td>161</td>
-      <td>5</td>
-      <td>34</td>
+      <td>4</td>
+      <td>35</td>
       <td>16</td>
     </tr>
     <tr>
@@ -175,18 +167,26 @@
     </tr>
     <tr>
       <th>2022-02-17</th>
-      <td>419</td>
-      <td>233</td>
-      <td>107</td>
-      <td>51</td>
+      <td>452</td>
+      <td>252</td>
+      <td>119</td>
+      <td>53</td>
       <td>28</td>
+    </tr>
+    <tr>
+      <th>2022-02-18</th>
+      <td>308</td>
+      <td>190</td>
+      <td>49</td>
+      <td>45</td>
+      <td>24</td>
     </tr>
   </tbody>
 </table>
 		<br><p class="notes"><br>Here is the data I'm using: <a href="daily.csv">daily.csv</a>. It follows the DOH <a href="https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/">Epi curve</a> (<a href="https://public.tableau.com/views/HawaiiCOVID-19WorkbooksandData/CSVDownloadepicurve.csv?:showVizHome=no">CSVDownload.csv</a>) rather than the daily change in total cases. I'm excluding out of state cases. The dates sit between the reported date and the date in the DOH CSV. See the notes section below for my rationale.</p>
 		<br><img class="center-fit" src="means.png" alt="7 day boxcar mean">
 		<br><img class="center-fit" src="stateProj.png" alt="statewide trend projection">
-		<p class="notes">The average rate over the last 2 weeks was about 0.928, std 0.019. Halving days about 9. Rt (6 day rate) about  0.637.</p>
+		<p class="notes">The average rate over the last 2 weeks was about 0.930, std 0.020. Halving days about 10. Rt (6 day rate) about  0.648.</p>
 		<br><img class="center-fit" src="population14day.png" alt="14 day total cases per 10k population"> 
 		<br><img class="center-fit" src="population7Day.png" alt="7 data total caases per 10K population">
 		<h1 style="text-align:center">Oahu</h1>
@@ -198,7 +198,7 @@
 		
 		<br><img class="center-fit" src="oahu_smoothed.png" alt="Oahu daily cases with smoothed average">
 		<br><img class="center-fit" src ="trend.png" alt="Oahu daily cases with 7 day mean and trend projection">
-		<p class="center-fit">The average rate over the last 2 weeks was about 0.917, std = 0.019.  Halving days about 8. Rt (6 day rate) around 0.593.</p>
+		<p class="center-fit">The average rate over the last 2 weeks was about 0.917, std = 0.019.  Halving days about 8. Rt (6 day rate) around 0.595.</p>
 		<br><img class="center-fit" src="rate.png" alt="Trend in rate and cases">
 		
 		<br><h1 style="text-align:center" >Notes</h1>
